@@ -1,0 +1,46 @@
+.services {
+  padding: 3rem 2rem;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.services-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.highlight {
+  color: #007bff;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.service-item {
+  text-align: center;
+  padding: 1rem;
+}
+
+.service-item img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 1rem;
+}
+
+.service-item h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.service-item p {
+  font-size: 0.9rem;
+  color: #777;
+}

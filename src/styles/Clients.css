@@ -1,0 +1,52 @@
+.clients {
+    padding: 3rem 2rem;
+    background-color: #f8fbff; /* Açık mavi arka plan */
+    text-align: center;
+  }
+  
+  .clients-header h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #888;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  
+  .clients-header h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .clients-header .highlight {
+    color: #007bff; /* Mavi vurgu */
+  }
+  
+  .clients-header p {
+    font-size: 1rem;
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto 2rem auto;
+  }
+  
+  .clients-logos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 2rem;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .clients-logos img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    opacity: 0.8;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .clients-logos img:hover {
+    opacity: 1;
+    transform: scale(1.1); /* Hover'da büyütme efekti */
+  }
+  
