@@ -1,5 +1,4 @@
 import React from 'react';
-import planeImage from '../assets/images/plane.jpg';
 import heroGif from '../assets/images/hero-animation.gif'; 
 import '../styles/HeroSection.css';
 
@@ -10,8 +9,7 @@ const HeroSection = () => (
         Aviation <span style={{ color: '#007bff' }}>Consultancy</span>
       </h1>
       <p>
-        Velocity55 is an Aviation Consulting company offering commercial / business development guidance and solutions
-        to ground service providers, airports, and airlines.
+      With 30 years of expertise, we deliver world-class aviation solutions, from maintenance and training to inspections, airworthiness management, and resource provisioning, ensuring safety, innovation, and excellence.
       </p>
     </div>
     <div className="hero-image-container">

@@ -1,0 +1,64 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem 3rem;
+    background-color: #ffffff; /* Beyaz arka plan */
+    border-top: 1px solid #ddd; /* Üstte hafif bir çizgi */
+  }
+  
+  .footer-column {
+    flex: 1;
+    margin: 0 1rem;
+  }
+  
+  .footer-column h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #007bff; /* Mavi başlık rengi */
+  }
+  
+  .footer-column p,
+  .footer-column a {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+  }
+  
+  .footer-column a:hover {
+    color: #ff5722; /* Hover durumunda renk değişikliği */
+  }
+  
+  .footer-logo img {
+    width: 150px;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .footer-social-icons a {
+    font-size: 1.5rem;
+    color: #ff5722;
+    transition: transform 0.3s ease;
+  }
+  
+  .footer-social-icons a:hover {
+    transform: scale(1.2); /* Hover'da büyütme efekti */
+  }
+  
+  .footer-services ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-services ul li {
+    margin-bottom: 0.5rem;
+  }
+  

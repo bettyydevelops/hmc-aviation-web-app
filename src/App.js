@@ -9,6 +9,7 @@ import Navbar from './components/Navbar';
 import Blog from './components/MenuItems/Blog';
 import Contact from './components/MenuItems/Contact';
 import AboutUs from './components/MenuItems/AboutUs';
+import WhatsAppButton from './components/ExtraFeatures/WhatsAppButton';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
@@ -27,6 +28,7 @@ function App() {
               <Services />
               <Clients />
               <Footer />
+              <WhatsAppButton />
             </>
           }
         />
