@@ -5,22 +5,21 @@ import '../styles/HeroSection.css';
 const HeroSection = () => (
   <section className="hero">
     <div className="hero-content">
-      <h1>
-        Aviation <span style={{ color: '#007bff' }}>Consultancy</span>
+      <h1 style={{fontSize: '64px' }}>
+        Aviation  <br /> <span style={{ color: '#007bff', fontSize: '64px' }}>Consultancy</span>
       </h1>
-      <p>
-      With 30 years of expertise, we deliver world-class aviation solutions, from maintenance and training to inspections, airworthiness management, and resource provisioning, ensuring safety, innovation, and excellence.
-      </p>
     </div>
     <div className="hero-image-container">
       <img src={heroGif} alt="Hero Animation" className="hero-gif" />
-      <div className="hero-caption">
-        <p>
-          <span className="icon">⭐</span> With over 30 years expertise in passenger / ramp handling, cabin cleaning, PRM
-          and FM, we are ready to support our customers globally.
-        </p>
-      </div>
+      {/* Kutucuğu ayrı bir kapsayıcıya aldık */}
     </div>
+        <div className="hero-caption">
+          <p>
+            At HMC AVIATION, we are not just service providers;
+             we are partners in your success. Whether it’s maintenance, training, or operational support, 
+             we are here to ensure your aviation goals take flight.
+          </p>
+        </div>
   </section>
 );
 

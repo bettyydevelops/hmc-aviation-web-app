@@ -89,6 +89,11 @@
   transform: scale(1.05); /* Hover'da büyütme efekti */
 }
 
+.why-choose-us p {
+  margin-bottom: 10px; /* Her madde arasında boşluk bırakır */
+}
+
+
 @media (max-width: 768px) {
   .mission-vision {
     flex-direction: column; /* Yığılma düzeni */

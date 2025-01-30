@@ -4,7 +4,7 @@
   align-items: center;
   text-align: center;
   padding: 2rem;
-  background-color: #f9f9f9;
+  background-color: white;
 }
 
 .hero-content h1 {
@@ -17,16 +17,18 @@
   font-size: 1.2rem;
   color: #555;
   margin-top: 1rem;
+  text-align: left;
 }
 
 .hero-image-container {
   position: relative;
   margin-top: 2rem;
-  width: 80%;
-  max-width: 800px;
+  height: 500px;
+  width: 100%;
+  max-width: 1000px;
   aspect-ratio: 16 / 9;
-  overflow: hidden;
-  border-radius: 50px; /* Kenarları kavisli yapmak için */
+  overflow: hidden; /* Border-radius çalışsın */
+  border-radius: 300px; /* Kenarları kavisli yapmak için */
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2); /* Hafif bir gölge efekti */
 }
 
@@ -37,21 +39,36 @@
 }
 
 .hero-caption {
-  position: absolute;
-  bottom: -25px; /* Konumu ayarlayın */
-  left: 50%;
-  transform: translateX(-50%);
   background: white;
   padding: 1rem 2rem;
-  border-radius: 20px;
+  width: 400px;
+  border-radius: 300px; /* Kenarları kavisli */
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
   font-size: 1rem;
   color: #555;
+  position: absolute;
+  top: 108%; /* GIF'in ortasına yerleştirir */
+  left: 50%;
+  transform: translate(-50%, -50%); /* Hem yatay hem dikey ortalar */
+  z-index: 10; /* Kutucuğun üstte görünmesini sağlar */
 }
 
 .hero-caption .icon {
   color: #ff9800; /* İkon rengi */
   font-size: 1.5rem;
   margin-right: 0.5rem;
+}
+
+.hero-title {
+  font-size: 64px;
+  font-weight: bold;
+  text-align: left; /* Soldan hizalama */
+  display: flex;
+  flex-direction: column; /* Satır satır dizilmesini sağlar */
+  align-items: flex-start; /* Sol tarafa hizalar */
+}
+
+.hero-title .blue-text {
+  color: #007bff;
 }
