@@ -1,0 +1,9 @@
+.moving-plane {
+  position: fixed;
+  top: 50px; /* Yukarıdan başlangıç noktası */
+  left: 10px; /* Soldan başlangıç noktası */
+  width: 120px; /* Uçak boyutu */
+  opacity: 0.9;
+  z-index: -1; /* Arkada kalmasını sağlar */
+  transition: transform 0.1s linear;
+}

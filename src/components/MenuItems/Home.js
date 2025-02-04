@@ -5,6 +5,7 @@ import MissionVision from '../../components/MissionVision';
 import Clients from '../../components/Clients';
 import Footer from '../../components/Footer';
 import Navbar from '../../components/Navbar';
+import BackgroundAnimation from "../BackgroundAnimation";
 import { BrowserRouter as Router } from 'react-router-dom';
 
 const Home = () => (

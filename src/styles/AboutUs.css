@@ -1,59 +1,89 @@
 .about-us {
-    width: 100%;
-    font-family: 'Arial', sans-serif;
-  }
-  
-  .hero-section {
-    position: relative;
-    width: 100%;
-    height: 80vh; /* Görseli büyük tut */
-    overflow: hidden;
-  }
-  
-  .hero-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .hero-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-    font-size: 1.8rem;
-    font-weight: bold;
-    max-width: 100%;
-  }
-  
-  .hero-text p {
-    font-size: 1.5rem;
-    font-weight: normal;
-    margin-top: 10px;
-  }
-  
-  .about-content {
-    padding: 3rem 10%;
-    text-align: center;
-  }
-  
-  .about-content h2 {
-    font-size: 2rem;
-    color: #004080; /* Koyu mavi ton */
-    font-weight: bold;
-    margin-bottom: 1rem;
-  }
-  
-  .about-content p {
-    font-size: 1.1rem;
-    color: #333;
-    line-height: 1.6;
-  }
-  
-  .highlight {
-    color: #007bff;
-    font-weight: bold;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+/* Hero Bölümü */
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  margin-bottom: 3rem;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-text {
+  position: absolute;
+  top: 65%;
+  left: 10%;
+  transform: translateY(-50%);
+  color: white;
+  text-align: left;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.hero-text h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.hero-subtext {
+  font-size: 1.2rem;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  display: inline-block;
+  color: #333;
+}
+
+/* About Content Bölümü */
+.about-content {
+  max-width: 80%;
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.about-content h2 {
+  color: #003366;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.about-box {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.about-box h3 {
+  margin-top: 1rem;
+  color: #007bff;
+}
+
+.about-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-box ul li {
+  padding: 0.5rem 0;
+  font-size: 1rem;
+}

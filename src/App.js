@@ -6,6 +6,7 @@ import Blog from './components/MenuItems/Blog';
 import Contact from './components/MenuItems/Contact';
 import AboutUs from './components/MenuItems/AboutUs';
 import WhatsAppButton from './components/ExtraFeatures/WhatsAppButton';
+import BackgroundAnimation from './components/BackgroundAnimation';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
@@ -17,10 +18,10 @@ function App() {
         <Routes>
         <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
-          <Route path="/services" element={<Services />} />
+          {/* <Route path="/services" element={<Services />} />  */}
           <Route path="/about-us" element={<AboutUs />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/contact" element={<Contact />} />
+          {/* <Route path="/blog" element={<Blog />} /> */}
+          {/* <Route path="/contact" element={<Contact />} /> */}
         </Routes>
         <WhatsAppButton />
             </div>
